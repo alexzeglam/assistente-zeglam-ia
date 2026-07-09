@@ -12,21 +12,27 @@ RUN apk add --no-cache python3 make g++
 
 
 
-# Copiar package files
+# Copiar apenas package.json
 
-COPY package.json pnpm-lock.yaml ./
+COPY package.json ./
 
 
 
-# Instalar pnpm e dependências
+# Instalar pnpm
 
-RUN npm install -g pnpm && pnpm install --frozen-lockfile
+RUN npm install -g pnpm
 
 
 
 # Copiar código
 
 COPY . .
+
+
+
+# Instalar dependências
+
+RUN pnpm install
 
 
 
