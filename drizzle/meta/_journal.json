@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1783518468725,
+      "tag": "0000_nostalgic_tomas",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1783518786748,
+      "tag": "0001_reflective_red_shift",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1783519781020,
+      "tag": "0002_smooth_scourge",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `configuracoes` ADD `openaiApiKey` varchar(256);
